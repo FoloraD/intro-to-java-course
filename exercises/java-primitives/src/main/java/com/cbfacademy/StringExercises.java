@@ -12,7 +12,13 @@ public class StringExercises {
 
     public Long howMany(String text, Character character) {
         // TODO - Write code to determine how many of the input ${character} are contained in the input ${text}
-        throw new RuntimeException("Not implemented");
+        //throw new RuntimeException("Not implemented");
+        long count = 0;
+        for(int i = 0; i < text.length(); i++) {
+            if(text.charAt(i) == character)
+                count++;
+        }
+        return count;
     }
 
     public Boolean isPalindrome(String word) {
