@@ -23,7 +23,13 @@ public class StringExercises {
 
     public Boolean isPalindrome(String word) {
         // TODO - Write code to determine whether the input ${word} is a palindrome
-        throw new RuntimeException("Not implemented");
+       // throw new RuntimeException("Not implemented");
+       for (int i = 0, j = word.length() -1; i < j; i++, j--) {
+            if (word.charAt(i) != word.charAt(j)) {
+                return false;
+            }
+       }
+       return true;
     }
 
     public String getName() {
