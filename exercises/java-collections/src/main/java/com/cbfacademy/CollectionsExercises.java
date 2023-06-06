@@ -12,7 +12,7 @@ public class CollectionsExercises {
         //  - add 4 as the 3rd element of the list
         //  - invoke the method element() on the list and print the result on the screen
         //  - return the list
-        throw new RuntimeException("Not implemented");
+       throw new RuntimeException("Not implemented");
     }
 
     public Stack<Integer> useStack() {
@@ -34,6 +34,17 @@ public class CollectionsExercises {
         //  - invoke the method poll() on the queue and print the result on the screen
         //  - invoke the element() method on the queue and print the result on the screen
         //  - return the queue
+
+        Queue<Integer> example_queue = new ArrayDeque<>();
+        example_queue.add(5);
+        example_queue.add(6);
+        example_queue.add(8);
+        example_queue.add(9);
+
+
+        System.out.println(example_queue.peek());
+        System.out.println(example_queue.poll());
+        System.out.println(example_queue.element());
         throw new RuntimeException("Not implemented");
     }
 

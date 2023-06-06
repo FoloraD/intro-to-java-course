@@ -20,6 +20,6 @@ public class Arrays {
         System.out.println(decimals[4]); //output 78.6
         System.out.println(answers[4]); //output false
 
-
+; 
     };
 }
